@@ -1,0 +1,33 @@
+.AboutUs {
+    padding-left: 30px;
+    text-align: center;
+}
+.AboutUs-title {
+
+}
+.AboutUs-description {
+    overflow-wrap: break-word;
+    padding-right: 30px;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+.AboutUs-name {
+    padding-top: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.AboutUs-docs {
+    display: flex;
+}
+.AboutUs-docs img{
+    padding-left: calc(100%/35);
+    padding-right: calc(100%/35);
+    cursor: pointer;
+
+
+}
+.AboutUs-certificate {
+    padding-top: calc(100%/20);
+    height: 233px;
+    object-fit: cover;
+}

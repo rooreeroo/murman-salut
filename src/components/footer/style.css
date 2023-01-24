@@ -1,0 +1,24 @@
+.Footer {
+    display: flex;
+}
+#myBtn {
+    bottom: 20px;
+    margin-left: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: #e3e3e3;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 40%;
+}
+#myBtn:hover {
+    background-color: #303030;
+}
+.Footer-copy {
+    opacity: 10%;
+    margin-left: 20px;
+}

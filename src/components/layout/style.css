@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #050505;
+    /*background-image: url('https://img-fotki.yandex.ru/get/9648/242007152.2f/0_105293_a6d128f8_orig.gif') ;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    font-family: sans-serif;
+    position: relative;
+    color: #ffffff;
+}
+/* Страница*/
+.Layout{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: #292929;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 5px #0000003b;
+}
+.Layout-upperHead h3{
+    margin: 0;
+    padding: 0 0 0 20px;
+    background: #1e1e1e;
+}
+.Layout-head{
+    height: 133px;
+    background: #1e1e1e;
+}
+/*.Layout-head h1{*/
+/*    margin: 0;*/
+/*    padding: 20px 20px 10px;*/
+/*}*/
+.Layout-content {
+    flex-grow: 1;
+}
+.Layout-foot{
+    /*position: absolute;*/
+    flex-shrink: 0;
+    bottom: 0;
+    margin-top: 100px;
+    padding-top: 40px;
+    height: 80px;
+    background: #151515;
+    width: 1024px;
+}
+@media (max-width: 575px) {
+    .Layout {
+        max-width: 575px;
+    }
+    .Layout-upperHead h3 {
+        padding: 20px;
+        text-align: center;
+    }
+    .Header {
+        display: flex;
+        width: 100%;
+    }
+    .Header-links {
+        width: 130px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+    .Header-links a {
+        color: #ffffff;
+        margin-right: 20%;
+        text-align: center;
+        margin-bottom: 14px;
+        white-space: nowrap;
+    }
+    .Layout-head {
+        height: 130px;
+        background: #1e1e1e;
+    }
+    .Header-logo {
+        width: 120%;
+        margin: 0;
+    }
+    .Header-owners {
+        display: none;
+    }
+    .Header-right {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        margin-left: 25px;
+    }
+    .Contact-banner img {
+        height: auto;
+        width: 100%;
+        margin-left: 0%;
+        box-shadow: 0 0 15px 5px #0000003b;
+    }
+    .Contact-banner p {
+        font-size: 15px;
+    }
+    .Contact-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .Contact-contacts-right {
+        padding-left: 0;
+        text-align: center;
+    }
+    .Layout-foot {
+        width: 100%;
+    }
+    .Contact-contacts-left img {
+        margin-left: 5%;
+        border-radius: 10px;
+        max-width: 90%;
+    }
+    .AboutUs-docs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .AboutUs-docs img {
+        max-height: 370px;
+        margin: 20px auto;
+    }
+    .AboutUs-certificate {
+        object-fit: cover;
+    }
+    .Cells-amount {
+        width: 112px;
+        margin-left: 50%;
+    }
+    .Cells {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        font-size: 12px;
+    }
+    .Cells-price {
+        margin-left: 50%;
+    }
+    .Item-center {
+        width: calc(100%/5);
+    }
+    .AboutUs {
+        padding-left: 0;
+    }
+    .Contact-points {
+        margin: 10px;
+    }
+    .Item-right {
+        width: auto;
+        margin: auto 5px auto auto;
+    }
+    .BasketSimple {
+        padding: 20px 5px;
+    }
+    .Item {
+        padding-left: 0;
+    }
+    .Item-title {
+        width: 38%;
+        padding: 10px 2px;
+    }
+    .LayoutModal-frame {
+        min-width: 375px;
+    }
+    .ItemBasket {
+        padding-left: 10px;
+    }
+    .ItemBasket-title {
+        padding: 10px 5px;
+    }
+    .ItemBasket-right {
+        padding: 20px 5px 20px 5px;
+    }
+    .ItemBasket-cell {
+        min-width: 50px;
+    }
+    .ItemBasket-cell button {
+        margin-left: 10px;
+    }
+    .BasketForm {
+        margin: 5px;
+    }
+    .BasketForm-group {
+        display: grid;
+        grid-template-columns: none;
+    }
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 991px) {
+    .Layout-foot {
+
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+
+}

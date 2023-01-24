@@ -1,0 +1,30 @@
+.BasketEmpty {
+
+
+
+}
+.BasketEmpty-title {
+    font-size: 25px;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+.BasketEmpty-description {
+    color: #858585;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.BasketEmpty-description span {
+    color: #000;
+    border: 1px solid #000000;
+    padding: 1px 6px;
+    border-radius: 4px;
+    background: #e3e3e3;
+
+}
+.BasketEmpty-description span a {
+    text-decoration: none;
+    color: #000;
+}

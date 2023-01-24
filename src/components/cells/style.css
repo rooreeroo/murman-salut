@@ -1,0 +1,19 @@
+.Cells{
+    display: flex;
+    align-items: center;
+}
+.Cells p{
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Cells-title{
+    margin-left: 20px;
+    width: 57%;
+}
+.Cells-amount{
+    width: calc(100%/10);
+}
+.Cells-price {
+    margin-left: 165px;
+}

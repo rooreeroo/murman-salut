@@ -1,0 +1,26 @@
+.choices__inner {
+  padding: 0 !important; 
+  min-height: min-content;
+  padding: 5px 10px !important;
+}
+
+.choices__item {
+  font-size: 18px;
+}
+
+.choices__list {
+  padding: 0 !important;
+}
+
+.choices__list div{
+  font-size: 18px !important;
+}
+
+.choices__list [class*="item"] {
+  min-width: min-content !important;
+}
+.Select {
+  margin-left: 20px;
+  width: 43%;
+  font-size: 16px;
+}

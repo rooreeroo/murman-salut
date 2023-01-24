@@ -1,0 +1,109 @@
+.Contact {
+
+}
+.Contact-italic {
+    font-style: italic;
+}
+.Contact-banner {
+    position: relative;
+    background-color: #050505;
+    color: antiquewhite;
+}
+.Contact-banner img{
+    height: 524px;
+    margin-left: 23%;
+    box-shadow: 0 0 15px 5px #0000003b;
+}
+.Contact-banner p {
+
+}
+.Contact-top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 40px;
+    font-family: comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;
+    width: calc(100%/3*0.9);
+    font-style: italic;
+    cursor: pointer;
+
+}
+.Contact-top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 15px;
+    font-family: impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+}
+.Contact-top-right1 {
+    position: absolute;
+    top: 40px;
+    right: 16px;
+    font-size: 30px;
+    width: 50%;
+    text-align: right;
+    font-family: impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+    margin-top: 15px;
+}
+.Contact-bottom-right {
+    position: absolute;
+    bottom: 30%;
+    right: 16px;
+    font-family: comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;
+    font-size: 40px;
+    font-style: italic;
+    color: inherit;
+}
+.Contact-bottom-right1 {
+    position: absolute;
+    bottom: 10%;
+    right: 16px;
+    font-family: comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;
+    font-size: 40px;
+    font-style: italic;
+}
+.Contact-hr {
+    box-sizing: border-box;
+    border-top: 3px solid #e3e3e3;
+    margin-top: 15px;
+}
+.Contact-points {
+    margin: 50px 100px 50px 100px;
+}
+.Contact-points-title {
+    font-weight: bold;
+}
+.Contact-contacts-title {
+    line-height:1.4em;
+    text-align:center;
+    font-size:30px;
+}
+.Contact-contacts-phones, .Contact-contacts-vk, .Contact-contacts-phone, .Contact-contacts-email{
+    border-bottom: 1px dashed #ccc;
+
+}
+.Contact-flex {
+    display: flex;
+}
+.Contact-contacts-vk img{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.Contact-contacts-email span{
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: tahoma,tahoma-w01-regular,tahoma-w02-regular,tahoma-w10-regular,tahoma-w15--regular,tahoma-w99-regular,sans-serif;
+    text-shadow: #535353 -1px -1px 0px, #535353 -1px 1px 0px, #969696 1px 1px 0px, #1e1e1e 1px -1px 0px;
+    font-size: 18px;
+}
+.Contact-contacts-left img{
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.Contact-contacts-right {
+    padding-left: 30px;
+}
+.Contact-contacts {
+}

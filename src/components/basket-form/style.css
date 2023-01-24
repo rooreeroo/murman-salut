@@ -1,0 +1,47 @@
+.BasketForm {
+    margin: 20px;
+}
+.BasketForm-form {
+
+}
+.BasketForm-input-description {
+    margin: 5px 20px 5px 0;
+    white-space: nowrap;
+}
+.BasketForm-input-form {
+    width: 100%;
+    margin-right: 20px;
+    background: #858585;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+.BasketForm-input-form::placeholder {
+    color: #2c2c2c;
+
+}
+.BasketForm-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 12px 20px 0;
+
+}
+.BasketForm-submit-button {
+    padding: 5px;
+
+}
+.BasketForm-string {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.BasketForm-string-adr {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.BasketForm-input-checkbox {
+}
+.BasketForm-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}

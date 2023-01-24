@@ -1,0 +1,18 @@
+.CatItem-id {
+    padding: 20px 10px 20px 20px;
+}
+
+.CatItem-title {
+
+    padding: 10px 20px;
+}
+.CatItem-title p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.CatItem {
+    color: #000000;
+    background: #b8b8b8;
+}
