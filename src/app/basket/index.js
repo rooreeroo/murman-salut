@@ -27,12 +27,14 @@ function Basket(){
     // Удаление из корзины
     removeFromBasket: useCallback(_id => store.get('basket').removeFromBasket(_id), []),
     // Отправка формы
-    sendForm: useCallback( data => store.get('basket').sendForm(data), [])
+    sendForm: useCallback( data => store.get('basket').sendForm(data), []),
+    removeOneFromBasket: useCallback(_id => store.get('basket').removeOneFromBasket(_id), []),
+    addBasket: useCallback(_id => store.get('basket').addBasket(_id), []),
   };
 
   const renders = {
-    itemBasket: useCallback(item => <ItemBasket item={item} onRemove={callbacks.removeFromBasket}/>, []),
-    catItem: useCallback(item =><CatItem item={item} onAdd={callbacks.addToBasket}/>, []),
+    itemBasket: useCallback(item => <ItemBasket item={item} onRemove={callbacks.removeFromBasket} onDelete={callbacks.removeOneFromBasket} onAdd={callbacks.addBasket}/>, []),
+    catItem: useCallback(item =><CatItem item={item} onAdd={callbacks.addBasket}/>, []),
   }
   const handleSubmit = (event) => {
     event.preventDefault();
